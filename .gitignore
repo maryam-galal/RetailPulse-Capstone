@@ -1,0 +1,14 @@
+# Docker / runtime data
+base/
+
+# Environment / secrets
+.env
+*.pem
+*.key
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
