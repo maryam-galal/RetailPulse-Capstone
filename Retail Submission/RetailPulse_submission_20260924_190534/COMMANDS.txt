@@ -1,0 +1,41 @@
+RETAILPULSE COMMANDS
+Run these from the EC2 host, at the [ec2-user@...] prompt.
+
+1. Show containers
+docker ps
+
+2. Check Spark version
+docker exec 04-01-jupyter-spark spark-submit --version
+
+3. List Silver datasets
+docker exec 01-02-namenode hdfs dfs -ls /silver/retail
+
+4. Show directory counts, file counts and bytes (NOT row counts)
+docker exec 01-02-namenode hdfs dfs -count '/silver/retail/*'
+
+5. List streaming output and event-date partitions
+docker exec 01-02-namenode hdfs dfs -ls -R /silver/retail/events
+
+6. List quarantined events
+docker exec 01-02-namenode hdfs dfs -ls -R /quarantine/retail/events
+
+7. Inspect the streaming log
+docker exec 04-01-jupyter-spark tail -n 100 /tmp/bronze_to_silver.log
+
+8. Show processes in the Spark container
+docker top 04-01-jupyter-spark
+
+9. Read three Kafka events
+docker exec 07-01-kafka /opt/kafka_2.12-2.3.0/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic retailpulse-events --from-beginning --max-messages 3 --timeout-ms 10000
+
+SCREENSHOTS TO TAKE
+- Eight batch dataset folders and their file counts.
+- Streaming event_date partitions and CSV files.
+- Rejected/quarantine output.
+- Successful processing messages or metrics from the streaming log.
+- Relevant cleaning, validation, deduplication and checkpoint code.
+
+NOTES
+Existing output does not prove that the stream is currently running.
+This package is submission evidence, not a complete cluster recovery backup.
+Checkpoint data, Kafka data and Hive table definitions are not exported here.

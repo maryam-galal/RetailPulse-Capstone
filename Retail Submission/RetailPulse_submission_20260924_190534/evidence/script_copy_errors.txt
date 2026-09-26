@@ -1,0 +1,1 @@
+Successfully copied 9.87MB to /home/ec2-user/Docker-BigData-Tools/RetailPulse_submission_20260924_190534/scripts/RetailPulse
