@@ -1,0 +1,9 @@
+           1            5            4554825 /silver/retail/customers
+           6           26           10097858 /silver/retail/events
+           1            5           22755912 /silver/retail/fulfillment_events
+           1            5            6669252 /silver/retail/inventory_snapshots
+           1            5           17019599 /silver/retail/order_items
+           1            5            8748152 /silver/retail/orders
+           1            5            8189729 /silver/retail/payments
+           1          201             765822 /silver/retail/products
+           1            2               2436 /silver/retail/stores

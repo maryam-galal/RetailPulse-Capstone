@@ -1,0 +1,68 @@
+nohup: ignoring input
+26/09/24 18:36:14 INFO spark.SparkContext: Running Spark version 2.4.1
+26/09/24 18:36:14 WARN spark.SparkConf: Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+26/09/24 18:36:14 INFO spark.SparkContext: Submitted application: RetailPulse Bronze to Silver Events
+26/09/24 18:36:14 INFO spark.SecurityManager: Changing view acls to: root
+26/09/24 18:36:14 INFO spark.SecurityManager: Changing modify acls to: root
+26/09/24 18:36:14 INFO spark.SecurityManager: Changing view acls groups to: 
+26/09/24 18:36:14 INFO spark.SecurityManager: Changing modify acls groups to: 
+26/09/24 18:36:14 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+26/09/24 18:36:15 INFO util.Utils: Successfully started service 'sparkDriver' on port 42029.
+26/09/24 18:36:15 INFO spark.SparkEnv: Registering MapOutputTracker
+26/09/24 18:36:15 INFO spark.SparkEnv: Registering BlockManagerMaster
+26/09/24 18:36:15 INFO storage.BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/09/24 18:36:15 INFO storage.BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/09/24 18:36:15 INFO storage.DiskBlockManager: Created local directory at /tmp/blockmgr-9c833f6d-814c-458f-8b7f-5816c81ae2e2
+26/09/24 18:36:15 INFO memory.MemoryStore: MemoryStore started with capacity 366.3 MB
+26/09/24 18:36:15 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+26/09/24 18:36:15 INFO util.log: Logging initialized @5660ms
+26/09/24 18:36:15 INFO server.Server: jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+26/09/24 18:36:15 INFO server.Server: Started @5904ms
+26/09/24 18:36:15 INFO server.AbstractConnector: Started ServerConnector@4a16152f{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+26/09/24 18:36:15 INFO util.Utils: Successfully started service 'SparkUI' on port 4040.
+26/09/24 18:36:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@93ca35b{/jobs,null,AVAILABLE,@Spark}
+26/09/24 18:36:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3edc5d85{/jobs/json,null,AVAILABLE,@Spark}
+26/09/24 18:36:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6923743b{/jobs/job,null,AVAILABLE,@Spark}
+26/09/24 18:36:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2f64281e{/jobs/job/json,null,AVAILABLE,@Spark}
+26/09/24 18:36:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@73086802{/stages,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1f848f4{/stages/json,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3bca33c0{/stages/stage,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@46e4b916{/stages/stage/json,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2c5ad639{/stages/pool,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1fcac0ed{/stages/pool/json,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5de5989b{/storage,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3eaab638{/storage/json,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@443b44ca{/storage/rdd,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@dbf2908{/storage/rdd/json,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7cef4964{/environment,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@179f2bb7{/environment/json,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@91c209a{/executors,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7d1fafd8{/executors/json,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7bbd6d76{/executors/threadDump,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@15913325{/executors/threadDump/json,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7de1c9fd{/static,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3aefe3f1{/,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@52b01b39{/api,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@77ad5d63{/jobs/job/kill,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4bdb9e10{/stages/stage/kill,null,AVAILABLE,@Spark}
+26/09/24 18:36:16 INFO ui.SparkUI: Bound SparkUI to 0.0.0.0, and started at http://jupyter-spark:4040
+26/09/24 18:36:16 INFO executor.Executor: Starting executor ID driver on host localhost
+26/09/24 18:36:16 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 42165.
+26/09/24 18:36:16 INFO netty.NettyBlockTransferService: Server created on jupyter-spark:42165
+26/09/24 18:36:16 INFO storage.BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+26/09/24 18:36:16 INFO storage.BlockManagerMaster: Registering BlockManager BlockManagerId(driver, jupyter-spark, 42165, None)
+26/09/24 18:36:16 INFO storage.BlockManagerMasterEndpoint: Registering block manager jupyter-spark:42165 with 366.3 MB RAM, BlockManagerId(driver, jupyter-spark, 42165, None)
+26/09/24 18:36:16 INFO storage.BlockManagerMaster: Registered BlockManager BlockManagerId(driver, jupyter-spark, 42165, None)
+26/09/24 18:36:16 INFO storage.BlockManager: Initialized BlockManager: BlockManagerId(driver, jupyter-spark, 42165, None)
+26/09/24 18:36:16 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@187e1eb3{/metrics/json,null,AVAILABLE,@Spark}
+26/09/24 18:36:18 INFO scheduler.EventLoggingListener: Logging events to file:/tmp/spark-history/local-1790274976274
+26/09/24 18:36:18 INFO internal.SharedState: loading hive config file: file:/etc/spark/hive-site.xml
+26/09/24 18:36:18 INFO internal.SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/mnt/notebooks/RetailPulse/spark-warehouse').
+26/09/24 18:36:18 INFO internal.SharedState: Warehouse path is 'file:/mnt/notebooks/RetailPulse/spark-warehouse'.
+26/09/24 18:36:18 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@41cf1185{/SQL,null,AVAILABLE,@Spark}
+26/09/24 18:36:18 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6f54a903{/SQL/json,null,AVAILABLE,@Spark}
+26/09/24 18:36:18 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@516022f7{/SQL/execution,null,AVAILABLE,@Spark}
+26/09/24 18:36:18 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6c40266d{/SQL/execution/json,null,AVAILABLE,@Spark}
+26/09/24 18:36:18 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6f8a430e{/static/sql,null,AVAILABLE,@Spark}
+26/09/24 18:36:19 INFO state.StateStoreCoordinatorRef: Registered StateStoreCoordinator endpoint
+26/09/24 18:46:54 WARN http.HttpParser: bad HTTP parsed: 400 No URI for HttpChannelOverHttp@213c8398{r=0,c=false,a=IDLE,uri=null}
