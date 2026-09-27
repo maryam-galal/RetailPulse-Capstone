@@ -1,3 +1,7 @@
+# RetailPulse-Capstone
+End-to-end retail Big Data pipeline using Sqoop, HDFS, Hive, Flume, Kafka, Spark, and Metabase, with final deployment on AWS.
+# Warehouse
+
 # 🛍️ RetailPulse — Retail Analytics Data Engineering Platform
 
 > **End-to-End Big Data Engineering Capstone | National Telecommunication Institute (NTI)**
